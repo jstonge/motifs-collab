@@ -18,12 +18,11 @@ A typical Framework project looks like this:
 .
 ├─ docs
 │  ├─ components
-│  │  └─ timeline.js           # an importable module
+│  │  └─ trajectory.js           # an importable module
 │  ├─ data
+│  │  ├─ timeline_prod.json    # the data
 │  │  ├─ launches.csv.js       # a data loader
 │  │  └─ events.json           # a static data file
-│  ├─ example-dashboard.md     # a page
-│  ├─ example-report.md        # another page
 │  └─ index.md                 # the home page
 ├─ .gitignore
 ├─ observablehq.config.ts      # the project config file
